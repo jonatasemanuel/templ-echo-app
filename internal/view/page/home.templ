@@ -1,0 +1,9 @@
+package page
+
+import "github.com/jonatasemanuel/templ-echo-app/internal/view/layout"
+
+templ Home(name string) {
+	@layout.Base() {
+		<p>Hello from templ { name } </p>
+	}
+}
